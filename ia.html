@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./img/ia.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleia.css">
+    <title>Inteligência Artificial</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="ia.html">
+                    <img src="img/ia.png" class="filter-image" width="70" height="60" alt="IA">
+                </a>
+            </div>
+
+            <ul>
+            <div class="filter-section">
+                <label for="color-filter">Filtro de Daltonismo:</label>
+                <select id="color-filter" class="filter-dropdown">
+                    <option value="default">Cores padrão</option>
+                    <option value="achromatomaly">Acromatopsia</option>
+                    <option value="deuteranomaly">Deuteranomalia</option>
+                    <option value="tritanomaly">Tritanomalia</option>
+                    <option value="Acromatomia">Acromatomia</option>
+                    <option value="Deuteranopia">Deuteranopia</option>
+                    <option value="Protanopia">Protanopia</option>
+                </select>
+            </ul>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+
+    </header>
+
+    <div id="contrastOptions" class="contrast-options">
+        <button id="blackAndWhite">Alto Contraste</button>
+        <button id="highContrast">Preto e Branco</button>
+        <button id="blueContrast">Azul</button>
+        <button id="greenContrast">Verde</button>
+        <button id="yellowContrast">Amarelo</button>
+    </div>
+
+    <div id="fontOptions" class="font-options">
+        <button id="increaseFont">+Aa</button>
+        <button id="decreaseFont">-Aa</button>
+    </div>
+
+    <main>
+
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">CONFIRA <span>AQUI</span></h2>
+                <div class="flex">
+                    <a href="https://chat.openai.com/" accesskey="G">
+                        <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <img src="img/chatgpt.webp" width="97" height="100" alt="" class="filter-image">
+                        <h3>ChatGPT</h3>
+                        <p>ChatGPT é um sistema desenvolvido pela OpenAI, que serve para gerar uma conversa onde
+                            o assistente é capaz de responder perguntas, fornecer informações, dialogar e muito mais,
+                            independente do tema, dúvida ou idioma. <BR>
+                            <P>ACESSAR: ALT + G
+                            </p>
+                    </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://copilot.microsoft.com/" accesskey="C">
+                        <div class="especialidades-box">
+                            <i class="bi bi-cart"></i>
+                            <img src="img/copilot-symbol.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Copilot</h3>
+                            <p>Copilot é um sistema desenvolvido pela GitHub junto a OpenAI, que funciona como um
+                                assistente de programação para os desenvolvedores, fornecendo sugestões de código,
+                                funções ou até mesmo fornecendo soluções para problemas específicos. <BR>
+                                <P>ACESSAR: ALT + C
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+                    
+                    <a href="https://gemini.google.com/app?hl=pt-BR" accesskey="B">
+                        <div class="especialidades-box">
+                            <i class="bi bi-wordpress"></i>
+                            <img src="img/gemini.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Gemini</h3>
+                            <p>Gemini é um sistema desenvolvido pela Google, projetado para ser um assistente
+                                multimodal, servindo para fornecer de texto e imagens a códigos de software e pesquisas
+                                na web e muito mais. Possuindo 3 versões: Nano, Pro e Ultra. <BR>
+                                <P>ACESSAR: ALT + B
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                </div><!--flex-->
+
+                <div class="flex">
+                    <a href="https://leonardo.ai/" accesskey="L">
+                        <div class="especialidades-box">
+                            <i class="bi bi-code-square"></i>
+                            <img src="img/leonardoai.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Leonardo AI</h3>
+                            <p>Leonardo AI é um gerador de imagens baseado em IA e com focos na criação de imagens e
+                                texturas para jogos. Desenvolvido para facilitar o trabalho de artistas, designers e
+                                desenvolvedores por meio de comandos ou instruções. <BR>
+                                <P>ACESSAR: ALT + L 
+                            </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://monica.im/pt_BR" accesskey="M">
+                        <div class="especialidades-box">
+                            <i class="bi bi-cart"></i>
+                                <img src="img/monica.png" width="100" height="100" alt="" class="filter-image">
+                                <h3>Monica</h3>
+                                <p>Assistente de IA Tudo-em-Um
+                                    Personalizado, Rápido e Gratuito:
+                                    Monica utiliza os modelos de IA mais avançados (GPT-4o, Claude 3, etc.) para ajudá-lo a Conversar, Pesquisar, Escrever, Traduzir e muito mais. <BR>
+                                    <P>ACESSAR: ALT + M
+                                </p>
+                            </div><!--especialidades-box-->
+                        </a>
+
+                    <a href="https://gamma.app/" accesskey="P">
+                        <div class="especialidades-box">
+                            <i class="bi bi-wordpress"></i>
+                            <img src="https://store-images.s-microsoft.com/image/apps.63360.13800228740496758.3ed8203a-9357-4240-af11-1c4d197a5191.a75be1f2-5bb7-4521-b003-bc0263ab8545?h=210" width="100" height="100" alt="" class="filter-image">
+                            <h3>Gamma</h3>
+                            <p>Scispace é uma ferramenta de IA para ajudar pesquisadores e estudantes a entender
+                                artigos de pesquisa com rapidez e facilidade, e com a ferramenta de acompanhamento,
+                                entender um texto confuso, fórmulas e muito mais se tornou fácil.
+                                <P> ACESSAR: ALT + P <BR>
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+                    
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+    </main>
+
+    <footer>
+            <p><i class="bi bi-envelope-fill"></i>© 2024 | Desenvolvido por Ana Laura</p>
+    </footer>
+  </div>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
